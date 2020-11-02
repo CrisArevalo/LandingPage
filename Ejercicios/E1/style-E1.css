@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: monospace;
+  font-size: 12px;
+}
+img{
+  width: 10%;
+  padding-top: 0.5em;
+}
+
+nav a{
+  color: white;
+  padding: 0.5em;
+  display: inline-block;
+  text-decoration: none;
+}
+nav a:hover{
+  color: orange;
+}
+.nav{
+  background-color: steelblue;
+  width: 1350px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+.centro{
+  background-color: white;
+  border-radius: 5px;
+  border-color: black;
+}
+.footer{
+  background-color: steelblue;
+  width: 1350px;
+  height: 40px;
+  border-radius: 5px;
+
+}
