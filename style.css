@@ -6,8 +6,8 @@
 }
 
 header{
-  height: 400px;
-  width: : 100%;
+  height: 30%;
+  width: 100%;
 }
 header, img{
   background-image: url("assets/background.jpg");
@@ -16,8 +16,8 @@ header, img{
 
 }
 .header-h1{
-  color: #ffffff;
-  margin-top: 8%;
+  color: #fff;
+  margin-top: 3%;
   font-size: 20px;
 }
 
@@ -25,21 +25,9 @@ header, img{
   color: gray;
   font-size: 28px;
   margin-top: 0.5em;
-  font-family: monospace;
+  margin-bottom: 1em;
 }
-.button{
-  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-  padding: 15px 15px; /*espacio alrededor texto*/
-  background-color: #11206B; /*color botón*/
-  color: #ffffff; /*color texto*/
-  text-transform: uppercase; /*capitalización texto*/
-  border-radius: 20px; /*bordes redondos*/
-  text-decoration: none; /* Sin decoracion*/
-}
-.button:hover{
-  text-decoration: underline;
-  opacity: 0.8;
-}
+
 /* ------------ Fin del HEADER ------------- */
 
 
@@ -48,37 +36,50 @@ header, img{
 section{ /* cards-wrap */
   background-color: #AEB6BF;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  height: 550px;
-  width: 80%;
+  height: 60%;
+  width: 100%;
   margin: auto;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
 
 }
 .card-container{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  margin: 60px auto;
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  margin: auto;
   display: flex;
   justify-content: center;
-  margin-left: 30px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
 }
-.card-container img{
-  width: 150px;
-  height: 20vh;
+.card img{
+  width: 110px;
+  height: 110px;
 
 }
 .card{
   background: #ffffff;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 1);
-  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 2);
+  overflow: hidden;
+  border-radius: 8px;
   padding: 12px;
-  margin: 0px 20px;
-
+  margin: 20px;
+  flex-wrap: wrap;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.card:hover{
+  transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 section h2{
   color: #3D3E3F;
   padding-bottom: 0.8em;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 h3{
@@ -90,7 +91,7 @@ h3{
 /* ----------------- Comienzo del FOOTER -----------------*/
 footer{
   background-color: #2C3E50;
-  height: 200px;
+  height: 10%;
   width: 100%;
   bottom: 0;
   padding: 50px 50px;
