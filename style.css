@@ -40,7 +40,7 @@ section{ /* cards-wrap */
   margin: auto;
   letter-spacing: 0.03em;
   line-height: 1.6;
-
+  
 }
 .card-container{
   width: 100%;
@@ -51,6 +51,7 @@ section{ /* cards-wrap */
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 50px;
+
 }
 .card img{
   width: 145px;
@@ -84,6 +85,44 @@ section h2{
 h3{
   margin: 20px 0;
 }
+/* Fin de las tarjetas */
+.info-adicional{
+  width: 100%;
+  height: 30px;
+  background-color: #DC7633;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #F4F6F7;
+}
+.info{
+  width: 80%;
+  height: 500px;
+  background-color: #F0F2F4;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+.info h4{
+  text-transform: uppercase;
+}
+.info h5{
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.info p{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+.info ul{
+  text-align: left;
+  padding-left: 8px;
+}
 
 /* ---------------- Fin del SECTION -------------------*/
 
@@ -94,7 +133,8 @@ footer{
   width: 100%;
   bottom: 0;
   padding: 50px 50px;
-  position: fixed;
+  margin-top: 30px;
+
 }
 
 /* ------------------Fin del FOOTER------------------ */
