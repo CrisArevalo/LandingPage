@@ -10,7 +10,7 @@ header{
   width: 100%;
   text-transform: uppercase;
 }
-header, img{
+.header{
   background-image: url("assets/background.jpg");
   background-position: center center;
   background-size: cover;
@@ -40,7 +40,6 @@ section{ /* cards-wrap */
   margin: auto;
   letter-spacing: 0.03em;
   line-height: 1.6;
-  
 }
 .card-container{
   width: 100%;
@@ -54,12 +53,13 @@ section{ /* cards-wrap */
 
 }
 .card img{
-  width: 145px;
+  width: 150px;
   height: 115px;
 
 }
 .card{
-  background: #F0F2F4;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 2);
   overflow: hidden;
   border-radius: 8px;
@@ -82,17 +82,23 @@ section h2{
   margin-top: 10px;
 }
 
-h3{
+h3{ /* Titulo de las cartas*/
   margin: 20px 0;
+  color: #fff;
 }
+
 /* Fin de las tarjetas */
+
 .info-adicional{
   width: 100%;
   height: 30px;
-  background-color: #DC7633;
+  
   padding-top: 2px;
   padding-bottom: 2px;
   color: #F4F6F7;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
 }
 .info{
   width: 80%;
@@ -105,6 +111,7 @@ h3{
   margin-bottom: 20px;
 
 }
+
 .info h4{
   text-transform: uppercase;
 }
@@ -134,10 +141,42 @@ footer{
   bottom: 0;
   padding: 50px 50px;
   margin-top: 30px;
+}
+.redes-sociales{
+  padding: 10px;
+
+}
+.github{
+  font-size: 30px;
+  color: #808B96;
+}
+.github:hover{
+  color: #000;
+}
+.linkedin{
+  font-size: 30px;
+  color: #808B96;
+}
+.linkedin:hover{
+  color: #000;
+}
+.facebook{
+  font-size: 30px;
+  color: #808B96;
+}
+.facebook:hover{
+  color: #000;
+}
+footer hr{
+  width: 50% auto;
+  margin-left: 25%;
+  margin-right: 25%;
 
 }
 
 /* ------------------Fin del FOOTER------------------ */
+
+/* Todo lo que esta debajo es la libreria de flexbox y grid.*/
 
 .container-fluid {
   margin-right: auto;
