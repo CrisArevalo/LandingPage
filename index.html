@@ -1,90 +1,138 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Fuentes -->
-    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/33a2bf41ad.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  </head>
-  <body>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- FONTS --> 
+	<script src="https://kit.fontawesome.com/33a2bf41ad.js" crossorigin="anonymous"></script>
 
-    <div class="row center-xs">
-      <!-- ··················Header·················· -->
-
-      <header class="header">
-        <div class="header-h1">
-          <h1>Portfolio</h1>
-        </div>
-        <div class="header-p">
-          <p>Cristian Gabriel Arevalo</p>
-        </div>
-      </header>
-
-      <!-- ··················Section·················· -->
-      <section class="col-xs-12">
-        <h2>Habilidades</h2>
-        <div class="card-container">
-              <div class="card">
-                <img src="assets/logo-C.png" alt="Lenguaje Ansi C">
-                <h3>Ansi C</h3>
-                <p>Conocimiento: intermedio.</p>
-              </div>
-              <div class="card">
-                <img src="assets/logo-python.png" alt="Lenguaje Python">
-                <h3>Python</h3>
-                <p>Conocimiento: basico.</p>
-              </div>
-              <div class="card">
-                <img src="assets/logo-java.png" alt="Programa Excel">
-                <h3>Java</h3>
-                <p>Conocimiento: basico.</p>
-              </div>
-          </div>
-
-        <!-- Fin de las tarjetas-->
-
-        <div class="info">
-          <div class="info-adicional">
-            <h4>Informacion Adicional</h4>
-          </div>
-          <p>Nacionalidad: Argentina <img src="assets/bandera.png" alt="Icono de Argentina"></p>
-          <p>Edad: 24</p>
-          <p>Localidad: Rafael Calzada</p>
-          <p>Disponibilidad: Full Time</p>
-          <hr>
-          <h5>Programas</h5>
-          <ul>
-            <li>Excel</li>
-            <li>Word</li>
-            <li>Powerpoint</li>
-          </ul>
-          <hr>
-          <h5>Estudios</h5>
-          <p>Carrera: Lic. en Ciencias de Datos (En curso)</p>
-          <p>Universidad: Universidad Nacional Guillermo Brown (Adrogue)</p>
-          <p>Estudios secundarios: Finalizados (E.E.S N11 - Monte Grande)</p>
-          <hr>
-        </div>
-      </section>
-
-      <!-- ··················Footer·················· -->
-
-      <footer>
-        <p>Diseñado y Desarrollado por Cristian Arevalo</p>
-        <hr>
-        <div class="redes-sociales">
-          <a class="github" href="https://github.com/CrisArevalo" class="github"><span class="fab fa-github"></span></a>
-          <a class="linkedin" href="https://www.linkedin.com/in/cristian-arevalo-174556155/"><span class="fab fa-linkedin"></span></a>
-          <a class="facebook" href="https://www.facebook.com/cristian.arevalo.355"><span class="fab fa-facebook"></span></a>
-        </div>
-
-      </footer>
-    </div>
-
-  </body>
+	<!-- STYLES -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Portafolio</title>
+</head>
+<body>
+	<header>
+			<main class="container d-flex justify-content-center align-items-center alto-100 medio-100">
+				<div class="row">
+					<!------- COLUMNA IZQUIERDA ------->
+					<div class="col-12 col-sm-6">
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-body border bg-dark text-white shadow-sm">
+										<div class="d-flex justify-content-center p-0">
+											<h5>Habilidades<i class="fas fa-check size:2x"></i></h5>
+										</div>
+									</div>
+								</div>								
+							</div>
+							<div class="col-6 col-sm-12 col-md-4 pt-1"> <!--------- ANSI C --------->
+									<div class="card">
+										<div class="card-body border bg-primary shadow-sm">
+											<div class="d-flex">
+												<img src="./assets/logo-C.png" class=" mw-100" alt="Imagen de C">
+											</div>
+										</div>
+									</div>								
+							</div>
+							<div class="col-6 col-sm-12 col-md-4 pt-1 "> <!--------- JAVA --------->
+								<div class="card">
+									<div class="card-body border bg-primary shadow-sm">
+										<div class="d-flex">
+											<img src="./assets/logo-java.png" class="mw-100" alt="Imagen de Java">
+										</div>
+									</div>
+								</div>								
+							</div>
+							<div class="col-6 col-sm-12 col-md-4 pt-1"> <!--------- HTML5 --------->
+								<div class="card">
+									<div class="card-body border bg-primary shadow-sm">
+										<div class="d-flex">
+											<img src="./assets/logo-html5.png" class="mw-100" alt="Imagen de HTML5">
+										</div>
+									</div>
+								</div>								
+							</div>
+							<div class="col-6 col-sm-12 col-md-4 pt-1 "> <!--------- CSS3 --------->
+								<div class="card">
+									<div class="card-body borde bg-primary shadow-sm">
+										<div class="d-flex">
+											<img src="./assets/logo-css.png" class="mw-100" alt="Imagen de CSS3">
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-6 col-sm-12 col-md-4 pt-1 pb-1"> <!--------- PYTHON --------->
+								<div class="card">
+									<div class="card-body border bg-primary shadow-sm">
+										<div class="d-flex">
+											<img src="./assets/logo-python.png" class="mw-100" alt="Imagen de Python">
+										</div>
+									</div>
+								</div>								
+							</div>
+							<!----------- Proximamente JavaScript :D ----------->
+						</div>
+					</div>
+					<!------- COLUMNA DERECHA ------->
+					<aside class="col-12 col-sm-6 col-md-6 pb-1">
+						<article class="card h-100 w-auto border bg-light shadow-lg">
+							<div class="card-body">
+								<div class="d-flex">
+									<!-- <img src="./assets/portrait.jpg" alt="Retrato" class="border border-dark border-3 rounded-circle">
+									 Aca va una imagen mia :D || Propiedades: border border-secondary border-3 rounded-circle-->
+									<div class="ps-1">
+										<h5>Cristian Gabriel Arevalo <i class="fab fa-dev"></i></h5>
+										<h6 class="fst-italic">FrontEnd Developer Jr. <img src="./assets/bandera.png"  alt="Bandera de Argentina"></h6>
+									</div>
+								</div>
+								<div class="fs-6 lh-1 mt-2">									
+									<p><i class="fas fa-birthday-cake"></i> 24</p>
+									<p><i class="fas fa-map-marker-alt"></i> Rafael Calzada, Buenos Aires</p>
+									<p><i class="fas fa-envelope"></i> cris.are.3496@gmail.com</p>
+									<p><i class="fas fa-clock"></i> Full-Time</p>
+									<h6 class="fw-bold">Programas</h6>
+									<ul class="pb-1">
+										<li><i class="fas fa-file-excel"></i> Basico</li>
+										<li><i class="fas fa-file-word"></i> Basico</li>
+										<li><i class="fas fa-file-powerpoint"></i> Basico</li>
+									</ul>
+									<h6 class="fw-bold">Estudios <i class="fas fa-pen-square"></i></h6>									
+									<ul>
+										<li><p>Carrera: Lic. en Ciencias de Datos | Adrogue (En Curso)</p></li>
+										<li><p>Secundaria: E.E.S. N°11 | Monte Grande (Finalizada)</p></li>
+									</ul>
+									<h6 class="fw-bold">Experiencia <i class="fas fa-code"></i></h6>
+									<ul><li><p>Sin Experiencia como programador.</p></li></ul>									
+								</div>
+							</div>
+						</article>					
+					</aside> 
+					
+					
+					<!--------- FOOTER --------->
+					<footer class="col-12">
+						<div class="card">
+							<div class="card-body border bg-dark shadow-lg">
+								<div class="d-flex justify-content-center">
+									<div class="iconos">
+										<a href="https://github.com/CrisArevalo"><i class="fa fa-github"></i></a>
+										<a href="https://www.linkedin.com/in/cristian-arevalo-174556155/"><i class="fab fa-linkedin"></i></a>
+										<a href="https://www.instagram.com/cris.are.3496/"><i class="fab fa-instagram"></i></a>	
+									</div>												
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</main> <!---------------------- MAIN  ----------------------->
+	</header>		
+	<!-- BREAKPOINTS 
+	///// SM>=576PX
+	///// MD>=768PX
+	///// LG>=992PX 
+	-->
+</body>
 </html>
