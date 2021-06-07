@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-color: #f8f9fa; /* black 343a40*/
+	background-color: #343a40; /* black 343a40*/
 }
 @media (min-width: 992px){
 	.alto-100{
@@ -22,4 +22,16 @@ body{
 }
 .card-body{
 	border-radius: 6px;
+}
+
+.creditos{
+	justify-content: center;
+	color: #625d69;
+	margin: 0;
+	padding: 0;
+	
+}
+.main{
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
